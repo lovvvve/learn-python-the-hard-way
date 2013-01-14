@@ -31,6 +31,7 @@ elements=[]
 #使用范围的函数做0到5计数
 for i in range(0,6):
     print "Adding %d to the list." %i
+    print "123"
     #将数字加入到列表里面
     elements.append(i)
 
