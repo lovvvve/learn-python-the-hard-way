@@ -9,12 +9,14 @@
 
 
 #动物园跑步比赛结果查询
+
 animals = ['乌龟', '熊', '蟒蛇', '孔雀', '袋鼠', '兔子', '狮子']
 
+
 print "动物园跑步比赛结果查询!"
+
 while True:
     print '请输入要查询的名次(1-7):',
     rank = int(raw_input())
-
     print "第%d名的动物是:%s" % (rank, animals[rank - 1])
 
